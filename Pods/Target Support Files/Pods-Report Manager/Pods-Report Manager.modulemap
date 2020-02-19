@@ -1,0 +1,6 @@
+module Pods_Report_Manager {
+  umbrella header "Pods-Report Manager-umbrella.h"
+
+  export *
+  module * { export * }
+}

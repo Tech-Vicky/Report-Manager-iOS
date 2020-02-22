@@ -23,7 +23,7 @@ class SignUpViewController: UIViewController {
             Auth.auth().createUser(withEmail: email, password: password) { authResult, error in
                 
                 if let e = error {
-                    print(e)
+                    self.signUpAlert(title: "Sign Up Error", message: e.localizedDescription)
                 } else {
                     // Navigate To The List Of Sites
                     
@@ -32,6 +32,18 @@ class SignUpViewController: UIViewController {
             }
             
         }
+        
+    }
+    
+    func signUpAlert(title: String, message: String) {
+        
+         let alert = UIAlertController(title: title, message: message, preferredStyle: UIAlertController.Style.alert)
+        
+        alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: { (action) in
+            alert.dismiss(animated: true, completion: nil)
+        }))
+        
+        self.present(alert, animated: true, completion: nil)
         
     }
     

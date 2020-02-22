@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		103DDC6F42E96367D00D9F26 /* libPods-Report Manager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FC6B93CA15103CC869DF55B /* libPods-Report Manager.a */; };
+		533DBA1223FEEC7100F318D3 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533DBA1123FEEC7100F318D3 /* LogInViewController.swift */; };
 		5363908523FD8DA40050B9A2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5363908423FD8DA40050B9A2 /* GoogleService-Info.plist */; };
 		53D915A623FD9C9A00D25D65 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D915A523FD9C9A00D25D65 /* SignUpViewController.swift */; };
 		53DFC00C23D7151900ED3093 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DFC00B23D7151900ED3093 /* AppDelegate.swift */; };
@@ -21,6 +22,7 @@
 /* Begin PBXFileReference section */
 		0FC6B93CA15103CC869DF55B /* libPods-Report Manager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Report Manager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		26B60E19994A042874E7D077 /* Pods-Report Manager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Report Manager.release.xcconfig"; path = "Target Support Files/Pods-Report Manager/Pods-Report Manager.release.xcconfig"; sourceTree = "<group>"; };
+		533DBA1123FEEC7100F318D3 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		5363908423FD8DA40050B9A2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		53D915A523FD9C9A00D25D65 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		53DFC00823D7151900ED3093 /* Report Manager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Report Manager.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,6 +73,7 @@
 				53DFC00D23D7151900ED3093 /* SceneDelegate.swift */,
 				53DFC00F23D7151900ED3093 /* ViewController.swift */,
 				53D915A523FD9C9A00D25D65 /* SignUpViewController.swift */,
+				533DBA1123FEEC7100F318D3 /* LogInViewController.swift */,
 				53DFC01123D7151900ED3093 /* Main.storyboard */,
 				53DFC01423D7151D00ED3093 /* Assets.xcassets */,
 				53DFC01623D7151D00ED3093 /* LaunchScreen.storyboard */,
@@ -216,6 +219,7 @@
 				53DFC01023D7151900ED3093 /* ViewController.swift in Sources */,
 				53DFC00C23D7151900ED3093 /* AppDelegate.swift in Sources */,
 				53D915A623FD9C9A00D25D65 /* SignUpViewController.swift in Sources */,
+				533DBA1223FEEC7100F318D3 /* LogInViewController.swift in Sources */,
 				53DFC00E23D7151900ED3093 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>612392871134-r3p5kapttaq3hptrcra3s93vrrs24ftn.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.612392871134-r3p5kapttaq3hptrcra3s93vrrs24ftn</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAgTtxDyET8jv1XJucclZgmAUfnV6pD9ik</string>
+	<key>GCM_SENDER_ID</key>
+	<string>612392871134</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>Prakramika.Report-Manager</string>
+	<key>PROJECT_ID</key>
+	<string>report-manager-e89cf</string>
+	<key>STORAGE_BUCKET</key>
+	<string>report-manager-e89cf.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:612392871134:ios:f886c0f076c98139608e4f</string>
+	<key>DATABASE_URL</key>
+	<string>https://report-manager-e89cf.firebaseio.com</string>
+</dict>
+</plist>

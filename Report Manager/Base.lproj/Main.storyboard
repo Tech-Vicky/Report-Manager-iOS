@@ -49,7 +49,7 @@
                                 <rect key="frame" x="45" y="262.5" width="314" height="334"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="daH-b6-HaY">
-                                <rect key="frame" x="77.5" y="296.5" width="220.5" height="211"/>
+                                <rect key="frame" x="77.5" y="296.5" width="220.5" height="208"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome !" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rc2-uu-QU2">
                                         <rect key="frame" x="0.0" y="0.0" width="220.5" height="36"/>
@@ -58,10 +58,10 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="9UN-dW-0h7">
-                                        <rect key="frame" x="0.0" y="66" width="220.5" height="84"/>
+                                        <rect key="frame" x="0.0" y="66" width="220.5" height="83"/>
                                         <subviews>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" minimumFontSize="17" clearButtonMode="whileEditing" id="crg-4V-hEl">
-                                                <rect key="frame" x="0.0" y="0.0" width="220.5" height="34.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="220.5" height="34"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -69,7 +69,7 @@
                                                 <textInputTraits key="textInputTraits" textContentType="email"/>
                                             </textField>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" minimumFontSize="17" clearButtonMode="whileEditing" id="rm9-Q0-fCt" userLabel="Password">
-                                                <rect key="frame" x="0.0" y="49.5" width="220.5" height="34"/>
+                                                <rect key="frame" x="0.0" y="49" width="220.5" height="34.5"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -79,16 +79,19 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="LMH-Mq-jZD">
-                                        <rect key="frame" x="0.0" y="180" width="220.5" height="31"/>
+                                        <rect key="frame" x="0.0" y="179" width="220.5" height="29"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pkb-F6-50r">
-                                                <rect key="frame" x="0.0" y="0.0" width="220.5" height="31"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="220.5" height="29"/>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <size key="titleShadowOffset" width="3" height="0.0"/>
                                                 <state key="normal" title="Log In">
                                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="loginPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jDH-7h-shp"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -114,6 +117,10 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="4vc-2C-NJN"/>
+                    <connections>
+                        <outlet property="emailLogIn" destination="crg-4V-hEl" id="zSn-Up-AVR"/>
+                        <outlet property="passwordEmail" destination="rm9-Q0-fCt" id="DGT-bs-XXc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

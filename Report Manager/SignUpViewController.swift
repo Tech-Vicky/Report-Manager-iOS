@@ -26,7 +26,6 @@ class SignUpViewController: UIViewController {
                     self.signUpAlert(title: "Sign Up Error", message: e.localizedDescription)
                 } else {
                     // Navigate To The List Of Sites
-                    
                 }
                 
             }

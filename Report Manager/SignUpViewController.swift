@@ -24,8 +24,9 @@ class SignUpViewController: UIViewController {
                 
                 if let e = error {
                     self.signUpAlert(title: "Sign Up Error", message: e.localizedDescription)
-                } else {
-                    // Navigate To The List Of Sites
+                }
+                else {
+                    self.performSegue(withIdentifier: "SignUpToSites", sender: self)
                 }
                 
             }

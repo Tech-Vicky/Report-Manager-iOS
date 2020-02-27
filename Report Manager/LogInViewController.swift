@@ -15,7 +15,7 @@ class LogInViewController: UIViewController {
     @IBOutlet weak var emailLogIn: UITextField!
     @IBOutlet weak var passwordEmail: UITextField!
     
-    
+    // When Log In is Pressed 
     @IBAction func loginPressed(_ sender: UIButton) {
         
         if let email = emailLogIn.text, let password = passwordEmail.text {
@@ -27,7 +27,7 @@ class LogInViewController: UIViewController {
                 }
                     
                 else {
-                    // Navigate To The List Of The Sites
+                   self.performSegue(withIdentifier: "LogInToSites", sender: self) 
                 }
                 
             }

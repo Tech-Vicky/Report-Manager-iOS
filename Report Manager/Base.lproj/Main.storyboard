@@ -49,7 +49,7 @@
                                 <rect key="frame" x="45" y="262.66666666666669" width="349" height="334.00000000000006"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="daH-b6-HaY">
-                                <rect key="frame" x="96.666666666666671" y="296.66666666666669" width="220.66666666666663" height="209.66666666666669"/>
+                                <rect key="frame" x="96.666666666666671" y="296.66666666666669" width="220.66666666666663" height="207.66666666666669"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome !" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rc2-uu-QU2">
                                         <rect key="frame" x="0.0" y="0.0" width="220.66666666666666" height="36"/>
@@ -58,10 +58,10 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="9UN-dW-0h7">
-                                        <rect key="frame" x="0.0" y="66" width="220.66666666666666" height="83"/>
+                                        <rect key="frame" x="0.0" y="66" width="220.66666666666666" height="82.333333333333314"/>
                                         <subviews>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" minimumFontSize="17" clearButtonMode="whileEditing" id="crg-4V-hEl">
-                                                <rect key="frame" x="0.0" y="0.0" width="220.66666666666666" height="34"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="220.66666666666666" height="33.666666666666664"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -69,7 +69,7 @@
                                                 <textInputTraits key="textInputTraits" textContentType="email"/>
                                             </textField>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" minimumFontSize="17" clearButtonMode="whileEditing" id="rm9-Q0-fCt" userLabel="Password">
-                                                <rect key="frame" x="0.0" y="49" width="220.66666666666666" height="33.666666666666657"/>
+                                                <rect key="frame" x="0.0" y="48.666666666666671" width="220.66666666666666" height="34"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -79,10 +79,10 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="LMH-Mq-jZD">
-                                        <rect key="frame" x="0.0" y="179" width="220.66666666666666" height="30.666666666666657"/>
+                                        <rect key="frame" x="0.0" y="178.33333333333331" width="220.66666666666666" height="29.333333333333343"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pkb-F6-50r">
-                                                <rect key="frame" x="0.0" y="0.0" width="220.66666666666666" height="30.666666666666668"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="220.66666666666666" height="29.333333333333332"/>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <size key="titleShadowOffset" width="3" height="0.0"/>
                                                 <state key="normal" title="Log In">
@@ -136,7 +136,19 @@
                     <view key="view" contentMode="scaleToFill" id="LZu-4C-B3s">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="jtc-zD-7zJ">
+                                <rect key="frame" x="0.0" y="44" width="414" height="643"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="OgI-VW-oio" firstAttribute="trailing" secondItem="jtc-zD-7zJ" secondAttribute="trailing" id="3uS-1u-uPb"/>
+                            <constraint firstItem="OgI-VW-oio" firstAttribute="bottom" secondItem="jtc-zD-7zJ" secondAttribute="bottom" id="70p-dy-02a"/>
+                            <constraint firstItem="jtc-zD-7zJ" firstAttribute="top" secondItem="OgI-VW-oio" secondAttribute="top" id="E26-T8-NoZ"/>
+                            <constraint firstItem="jtc-zD-7zJ" firstAttribute="leading" secondItem="OgI-VW-oio" secondAttribute="leading" id="UNz-he-uUa"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="OgI-VW-oio"/>
                     </view>
                     <toolbarItems/>
@@ -148,6 +160,9 @@
                         </barButtonItem>
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="siteDetailList" destination="jtc-zD-7zJ" id="Xtz-OB-Geh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LoL-zj-oYO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

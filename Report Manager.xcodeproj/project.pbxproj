@@ -10,6 +10,8 @@
 		103DDC6F42E96367D00D9F26 /* libPods-Report Manager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FC6B93CA15103CC869DF55B /* libPods-Report Manager.a */; };
 		5314E85624076AA90038E018 /* SiteDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5314E85524076AA90038E018 /* SiteDetailViewController.swift */; };
 		5336CAA624082B8A00998A22 /* PrimarySplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5336CAA524082B8A00998A22 /* PrimarySplitViewController.swift */; };
+		533D41CA24101106006711EB /* CheckMarkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533D41C824101106006711EB /* CheckMarkCell.swift */; };
+		533D41CB24101106006711EB /* CheckMarkCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 533D41C924101106006711EB /* CheckMarkCell.xib */; };
 		533DBA1223FEEC7100F318D3 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533DBA1123FEEC7100F318D3 /* LogInViewController.swift */; };
 		5359101C2406F1CB00F96B86 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5359101B2406F1CB00F96B86 /* MasterViewController.swift */; };
 		5363908523FD8DA40050B9A2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5363908423FD8DA40050B9A2 /* GoogleService-Info.plist */; };
@@ -27,6 +29,8 @@
 		26B60E19994A042874E7D077 /* Pods-Report Manager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Report Manager.release.xcconfig"; path = "Target Support Files/Pods-Report Manager/Pods-Report Manager.release.xcconfig"; sourceTree = "<group>"; };
 		5314E85524076AA90038E018 /* SiteDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiteDetailViewController.swift; sourceTree = "<group>"; };
 		5336CAA524082B8A00998A22 /* PrimarySplitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimarySplitViewController.swift; sourceTree = "<group>"; };
+		533D41C824101106006711EB /* CheckMarkCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckMarkCell.swift; sourceTree = "<group>"; };
+		533D41C924101106006711EB /* CheckMarkCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CheckMarkCell.xib; sourceTree = "<group>"; };
 		533DBA1123FEEC7100F318D3 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		5359101B2406F1CB00F96B86 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
 		5363908423FD8DA40050B9A2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -83,6 +87,8 @@
 				5336CAA524082B8A00998A22 /* PrimarySplitViewController.swift */,
 				5359101B2406F1CB00F96B86 /* MasterViewController.swift */,
 				5314E85524076AA90038E018 /* SiteDetailViewController.swift */,
+				533D41C824101106006711EB /* CheckMarkCell.swift */,
+				533D41C924101106006711EB /* CheckMarkCell.xib */,
 				53DFC01123D7151900ED3093 /* Main.storyboard */,
 				53DFC01423D7151D00ED3093 /* Assets.xcassets */,
 				53DFC01623D7151D00ED3093 /* LaunchScreen.storyboard */,
@@ -173,6 +179,7 @@
 				5363908523FD8DA40050B9A2 /* GoogleService-Info.plist in Resources */,
 				53DFC01523D7151D00ED3093 /* Assets.xcassets in Resources */,
 				53DFC01323D7151900ED3093 /* Main.storyboard in Resources */,
+				533D41CB24101106006711EB /* CheckMarkCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,6 +235,7 @@
 				5314E85624076AA90038E018 /* SiteDetailViewController.swift in Sources */,
 				53DFC01023D7151900ED3093 /* ViewController.swift in Sources */,
 				53DFC00C23D7151900ED3093 /* AppDelegate.swift in Sources */,
+				533D41CA24101106006711EB /* CheckMarkCell.swift in Sources */,
 				5359101C2406F1CB00F96B86 /* MasterViewController.swift in Sources */,
 				5336CAA624082B8A00998A22 /* PrimarySplitViewController.swift in Sources */,
 				53D915A623FD9C9A00D25D65 /* SignUpViewController.swift in Sources */,

@@ -10,6 +10,13 @@ import UIKit
 import Firebase
 
 class MasterViewController: UITableViewController {
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        tableView.separatorColor = UIColor(white: 0.95, alpha: 1)
+    }
+    
 
     // To Sign Out User From The App
     @IBAction func signOutPressed(_ sender: UIBarButtonItem) {
@@ -36,7 +43,9 @@ class MasterViewController: UITableViewController {
     // To Create cell for the Storing Items
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "masterCell")
-        cell?.textLabel?.text = siteList[indexPath.row]
+        // cell?.textLabel?.text = siteList[indexPath.row]
+        // cell?.detailTextLabel?.text = siteList[indexPath.row]
+        cell?.contentView.backgroundColor = UIColor(white: 0.95, alpha: 1)
         return cell!
         
     }

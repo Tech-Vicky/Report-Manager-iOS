@@ -16,6 +16,7 @@
 		534C38D72413ED5C00A3AAD4 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534C38D62413ED5C00A3AAD4 /* ImageViewController.swift */; };
 		5359101C2406F1CB00F96B86 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5359101B2406F1CB00F96B86 /* MasterViewController.swift */; };
 		5363908523FD8DA40050B9A2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5363908423FD8DA40050B9A2 /* GoogleService-Info.plist */; };
+		53A25C7B24194CB10091956D /* DesignMasterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A25C7A24194CB10091956D /* DesignMasterView.swift */; };
 		53D915A623FD9C9A00D25D65 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D915A523FD9C9A00D25D65 /* SignUpViewController.swift */; };
 		53DFC00C23D7151900ED3093 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DFC00B23D7151900ED3093 /* AppDelegate.swift */; };
 		53DFC00E23D7151900ED3093 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DFC00D23D7151900ED3093 /* SceneDelegate.swift */; };
@@ -36,6 +37,7 @@
 		534C38D62413ED5C00A3AAD4 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		5359101B2406F1CB00F96B86 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
 		5363908423FD8DA40050B9A2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		53A25C7A24194CB10091956D /* DesignMasterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignMasterView.swift; sourceTree = "<group>"; };
 		53D915A523FD9C9A00D25D65 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		53DFC00823D7151900ED3093 /* Report Manager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Report Manager.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		53DFC00B23D7151900ED3093 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 				533DBA1123FEEC7100F318D3 /* LogInViewController.swift */,
 				5336CAA524082B8A00998A22 /* PrimarySplitViewController.swift */,
 				5359101B2406F1CB00F96B86 /* MasterViewController.swift */,
+				53A25C7A24194CB10091956D /* DesignMasterView.swift */,
 				5314E85524076AA90038E018 /* SiteDetailViewController.swift */,
 				533D41C824101106006711EB /* CheckMarkCell.swift */,
 				533D41C924101106006711EB /* CheckMarkCell.xib */,
@@ -239,6 +242,7 @@
 				53DFC01023D7151900ED3093 /* ViewController.swift in Sources */,
 				534C38D72413ED5C00A3AAD4 /* ImageViewController.swift in Sources */,
 				53DFC00C23D7151900ED3093 /* AppDelegate.swift in Sources */,
+				53A25C7B24194CB10091956D /* DesignMasterView.swift in Sources */,
 				533D41CA24101106006711EB /* CheckMarkCell.swift in Sources */,
 				5359101C2406F1CB00F96B86 /* MasterViewController.swift in Sources */,
 				5336CAA624082B8A00998A22 /* PrimarySplitViewController.swift in Sources */,

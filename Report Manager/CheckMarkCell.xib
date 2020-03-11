@@ -17,18 +17,18 @@
                 <rect key="frame" x="0.0" y="0.0" width="320" height="45"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aWG-G8-8Jb">
-                        <rect key="frame" x="6" y="7" width="32" height="31"/>
+                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aWG-G8-8Jb">
+                        <rect key="frame" x="6" y="7" width="29.5" height="31"/>
                         <state key="normal" image="UnChecked"/>
                         <state key="selected" image="Checked"/>
                     </button>
-                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pXH-pm-Geb">
-                        <rect key="frame" x="282" y="7" width="32" height="31"/>
+                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pXH-pm-Geb">
+                        <rect key="frame" x="279.5" y="7" width="34.5" height="31"/>
                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <state key="normal" image="icon"/>
                     </button>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OVR-Ab-G2I">
-                        <rect key="frame" x="54" y="10.5" width="217" height="24"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OVR-Ab-G2I">
+                        <rect key="frame" x="51.5" y="10.5" width="217" height="24"/>
                         <constraints>
                             <constraint firstAttribute="width" constant="217" id="UAp-7D-HGQ"/>
                         </constraints>
@@ -63,7 +63,7 @@
     </objects>
     <resources>
         <image name="Checked" width="32" height="32"/>
-        <image name="UnChecked" width="32" height="32"/>
+        <image name="UnChecked" width="29" height="29"/>
         <image name="icon" width="32" height="32"/>
     </resources>
 </document>

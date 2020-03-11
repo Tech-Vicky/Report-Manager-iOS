@@ -13,6 +13,7 @@
 		533D41CA24101106006711EB /* CheckMarkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533D41C824101106006711EB /* CheckMarkCell.swift */; };
 		533D41CB24101106006711EB /* CheckMarkCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 533D41C924101106006711EB /* CheckMarkCell.xib */; };
 		533DBA1223FEEC7100F318D3 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533DBA1123FEEC7100F318D3 /* LogInViewController.swift */; };
+		534C38D72413ED5C00A3AAD4 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534C38D62413ED5C00A3AAD4 /* ImageViewController.swift */; };
 		5359101C2406F1CB00F96B86 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5359101B2406F1CB00F96B86 /* MasterViewController.swift */; };
 		5363908523FD8DA40050B9A2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5363908423FD8DA40050B9A2 /* GoogleService-Info.plist */; };
 		53D915A623FD9C9A00D25D65 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D915A523FD9C9A00D25D65 /* SignUpViewController.swift */; };
@@ -32,6 +33,7 @@
 		533D41C824101106006711EB /* CheckMarkCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckMarkCell.swift; sourceTree = "<group>"; };
 		533D41C924101106006711EB /* CheckMarkCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CheckMarkCell.xib; sourceTree = "<group>"; };
 		533DBA1123FEEC7100F318D3 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		534C38D62413ED5C00A3AAD4 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		5359101B2406F1CB00F96B86 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
 		5363908423FD8DA40050B9A2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		53D915A523FD9C9A00D25D65 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 				5314E85524076AA90038E018 /* SiteDetailViewController.swift */,
 				533D41C824101106006711EB /* CheckMarkCell.swift */,
 				533D41C924101106006711EB /* CheckMarkCell.xib */,
+				534C38D62413ED5C00A3AAD4 /* ImageViewController.swift */,
 				53DFC01123D7151900ED3093 /* Main.storyboard */,
 				53DFC01423D7151D00ED3093 /* Assets.xcassets */,
 				53DFC01623D7151D00ED3093 /* LaunchScreen.storyboard */,
@@ -234,6 +237,7 @@
 			files = (
 				5314E85624076AA90038E018 /* SiteDetailViewController.swift in Sources */,
 				53DFC01023D7151900ED3093 /* ViewController.swift in Sources */,
+				534C38D72413ED5C00A3AAD4 /* ImageViewController.swift in Sources */,
 				53DFC00C23D7151900ED3093 /* AppDelegate.swift in Sources */,
 				533D41CA24101106006711EB /* CheckMarkCell.swift in Sources */,
 				5359101C2406F1CB00F96B86 /* MasterViewController.swift in Sources */,

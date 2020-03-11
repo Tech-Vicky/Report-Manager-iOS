@@ -30,7 +30,6 @@ class SiteDetailViewController: UIViewController, UITableViewDataSource, UITable
         siteDetailList.dataSource = self
         siteDetailList.delegate = self
         
-        imagePicker.delegate = self as? UIImagePickerControllerDelegate & UINavigationControllerDelegate
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -69,13 +68,8 @@ class SiteDetailViewController: UIViewController, UITableViewDataSource, UITable
     }
     
     // 2. Image Button Pressed
-    var imagePicker = UIImagePickerController()
-    
     @objc func imageButtonClicked( sender: UIButton){
-        
-        imagePicker.sourceType = .photoLibrary
-        imagePicker.allowsEditing = true
-        present(imagePicker, animated: true, completion: nil)
+        performSegue(withIdentifier: "ToImageCollection", sender: self)
     }
     
     
@@ -96,16 +90,6 @@ class SiteDetailViewController: UIViewController, UITableViewDataSource, UITable
         }
         
     }
-}
-
-
-extension ViewController: UIImagePickerControllerDelegate, UINavigationControllerDelegate {
-    
-    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
-        
-        dismiss(animated: true, completion: nil)
-    }
-    
 }
 
 /*
